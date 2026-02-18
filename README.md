@@ -22,4 +22,4 @@ To grow as a professional developer and contribute to meaningful, high-quality s
 
 Feel free to explore my repositories and connect with me.
 
-![Image](https://github.com/user-attachments/assets/b50cfa64-f029-4d4d-a7aa-6c646887435b)
+<img width="618" height="617" alt="Image" src="https://github.com/user-attachments/assets/93dfee79-2767-4b2e-98a1-cef2198a5fd8" />
