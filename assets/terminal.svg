@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-label="Terminal: whoami -&gt; tsotne_ivanashvili; cat mission.txt -&gt; build things that matter. ship. learn. repeat.; git log --oneline | wc -l -&gt; always +1; ./ascend --level=next -&gt; [##########----] loading the next version of me...">
+  <title>whoami</title>
+  <style>
+    .mono { font: 16px ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Courier New', monospace; }
+    .out { fill: #8b949e; opacity: 0; animation: fade .4s ease-out forwards; }
+    .row { opacity: 0; animation: fade .01s linear forwards; }
+    .caret { animation: blink 1s step-end infinite; opacity: 0; animation-delay: 7.00s; }
+    @keyframes fade { to { opacity: 1; } }
+    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
+    @keyframes wipe0 { to { transform: translateX(90.8px); } }
+    @keyframes wipe1 { to { transform: translateX(177.2px); } }
+    @keyframes wipe2 { to { transform: translateX(273.2px); } }
+    @keyframes wipe3 { to { transform: translateX(234.8px); } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .row, .out, .caret { opacity: 1; }
+      .cover { display: none; }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="899" height="339" rx="12" fill="#161b22" stroke="#30363d"/>
+  <path d="M0.5 12.5a12 12 0 0 1 12-12h875a12 12 0 0 1 12 12V40H0.5z" fill="#21262d"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f56"/><circle cx="44" cy="20" r="6" fill="#ffbd2e"/><circle cx="64" cy="20" r="6" fill="#27c93f"/>
+  <text x="450.0" y="25" text-anchor="middle" class="mono" fill="#8b949e" font-size="13">tsotne@github: ~</text>
+  <g>
+    <g class="row" style="animation-delay:0.40s">
+      <text x="28" y="70" class="mono"><tspan fill="#22d3ee">$</tspan> <tspan fill="#e6edf3">whoami</tspan></text>
+      <rect class="cover" x="28" y="50" width="90.8" height="28" fill="#161b22" style="animation: wipe0 .6s steps(8, end) 0.40s forwards"/>
+    </g>
+    <text x="28" y="100" class="mono out" style="animation-delay:1.10s">tsotne_ivanashvili</text>
+    <g class="row" style="animation-delay:2.00s">
+      <text x="28" y="130" class="mono"><tspan fill="#22d3ee">$</tspan> <tspan fill="#e6edf3">cat mission.txt</tspan></text>
+      <rect class="cover" x="28" y="110" width="177.2" height="28" fill="#161b22" style="animation: wipe1 .6s steps(17, end) 2.00s forwards"/>
+    </g>
+    <text x="28" y="160" class="mono out" style="animation-delay:2.70s">build things that matter. ship. learn. repeat.</text>
+    <g class="row" style="animation-delay:3.60s">
+      <text x="28" y="190" class="mono"><tspan fill="#22d3ee">$</tspan> <tspan fill="#e6edf3">git log --oneline | wc -l</tspan></text>
+      <rect class="cover" x="28" y="170" width="273.2" height="28" fill="#161b22" style="animation: wipe2 .6s steps(27, end) 3.60s forwards"/>
+    </g>
+    <text x="28" y="220" class="mono out" style="animation-delay:4.30s">always +1</text>
+    <g class="row" style="animation-delay:5.20s">
+      <text x="28" y="250" class="mono"><tspan fill="#22d3ee">$</tspan> <tspan fill="#e6edf3">./ascend --level=next</tspan></text>
+      <rect class="cover" x="28" y="230" width="234.8" height="28" fill="#161b22" style="animation: wipe3 .6s steps(23, end) 5.20s forwards"/>
+    </g>
+    <text x="28" y="280" class="mono out" style="animation-delay:5.90s">[##########----] loading the next version of me...</text>
+  </g>
+  <text x="28" y="310" class="mono"><tspan fill="#22d3ee">$</tspan> <tspan class="caret" fill="#e6edf3">▍</tspan></text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 70" width="900" height="70" role="img" aria-label="Hi, I&#x27;m Tsotne. / I build things for the web. / I learn in public. / Shipping &gt; perfect.">
+  <title>Hi, I&#x27;m Tsotne. / I build things for the web. / I learn in public. / Shipping &gt; perfect.</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="900" height="70" rx="12"/></clipPath>
+  </defs>
+  <style>
+    .t { font: 600 30px ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Courier New', monospace; fill: url(#g); }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes show0 { 0% { opacity: 1; } 25.000% { opacity: 0; } }
+    @keyframes type0 {
+      0%, 0.000% { transform: translateX(0); animation-timing-function: steps(15, end); }
+      10.000%, 20.000% { transform: translateX(270.0px); animation-timing-function: steps(15, end); }
+      23.125%, 100% { transform: translateX(0); }
+    }
+    .l0 { animation: show0 16.0s step-end infinite; }
+    .m0 { animation: type0 16.0s linear infinite; }
+    @keyframes show1 { 0% { opacity: 0; } 25.000% { opacity: 1; } 50.000% { opacity: 0; } }
+    @keyframes type1 {
+      0%, 25.000% { transform: translateX(0); animation-timing-function: steps(27, end); }
+      35.000%, 45.000% { transform: translateX(486.0px); animation-timing-function: steps(27, end); }
+      48.125%, 100% { transform: translateX(0); }
+    }
+    .l1 { animation: show1 16.0s step-end infinite; }
+    .m1 { animation: type1 16.0s linear infinite; }
+    @keyframes show2 { 0% { opacity: 0; } 50.000% { opacity: 1; } 75.000% { opacity: 0; } }
+    @keyframes type2 {
+      0%, 50.000% { transform: translateX(0); animation-timing-function: steps(18, end); }
+      60.000%, 70.000% { transform: translateX(324.0px); animation-timing-function: steps(18, end); }
+      73.125%, 100% { transform: translateX(0); }
+    }
+    .l2 { animation: show2 16.0s step-end infinite; }
+    .m2 { animation: type2 16.0s linear infinite; }
+    @keyframes show3 { 0% { opacity: 0; } 75.000% { opacity: 1; } 100.000% { opacity: 0; } }
+    @keyframes type3 {
+      0%, 75.000% { transform: translateX(0); animation-timing-function: steps(19, end); }
+      85.000%, 95.000% { transform: translateX(342.0px); animation-timing-function: steps(19, end); }
+      98.125%, 100% { transform: translateX(0); }
+    }
+    .l3 { animation: show3 16.0s step-end infinite; }
+    .m3 { animation: type3 16.0s linear infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .l0 { opacity: 1; }
+      .m0 { display: none; }
+    }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="900" height="70" fill="#0d1117"/>
+  <g class="l0" opacity="0">
+    <text x="315.0" y="45.5" textLength="270.0" lengthAdjust="spacingAndGlyphs" class="t">Hi, I&#x27;m Tsotne.</text>
+    <g class="m0">
+      <rect x="315.0" y="0" width="900" height="70" fill="#0d1117"/>
+      <rect class="cursor" x="317.0" y="18.5" width="3" height="33.0" fill="#22d3ee"/>
+    </g>
+  </g>
+  <g class="l1" opacity="0">
+    <text x="207.0" y="45.5" textLength="486.0" lengthAdjust="spacingAndGlyphs" class="t">I build things for the web.</text>
+    <g class="m1">
+      <rect x="207.0" y="0" width="900" height="70" fill="#0d1117"/>
+      <rect class="cursor" x="209.0" y="18.5" width="3" height="33.0" fill="#22d3ee"/>
+    </g>
+  </g>
+  <g class="l2" opacity="0">
+    <text x="288.0" y="45.5" textLength="324.0" lengthAdjust="spacingAndGlyphs" class="t">I learn in public.</text>
+    <g class="m2">
+      <rect x="288.0" y="0" width="900" height="70" fill="#0d1117"/>
+      <rect class="cursor" x="290.0" y="18.5" width="3" height="33.0" fill="#22d3ee"/>
+    </g>
+  </g>
+  <g class="l3" opacity="0">
+    <text x="279.0" y="45.5" textLength="342.0" lengthAdjust="spacingAndGlyphs" class="t">Shipping &gt; perfect.</text>
+    <g class="m3">
+      <rect x="279.0" y="0" width="900" height="70" fill="#0d1117"/>
+      <rect class="cursor" x="281.0" y="18.5" width="3" height="33.0" fill="#22d3ee"/>
+    </g>
+  </g>
+  </g>
+  <rect x="0.5" y="0.5" width="899" height="69" rx="12" fill="none" stroke="#30363d"/>
+</svg>

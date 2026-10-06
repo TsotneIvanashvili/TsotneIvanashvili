@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="f" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .w { animation: flow 8s linear infinite; }
+    .w2 { animation-duration: 12s; animation-direction: reverse; }
+    .w3 { animation-duration: 6s; }
+    @keyframes flow { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <path class="w w2" d="M0 50 Q150 36 300 50 Q450 64 600 50 Q750 36 900 50 Q1050 64 1200 50 Q1350 36 1500 50 Q1650 64 1800 50 V120 H0Z" fill="url(#f)" opacity="0.25"/>
+  <path class="w" d="M0 65 Q150 47 300 65 Q450 83 600 65 Q750 47 900 65 Q1050 83 1200 65 Q1350 47 1500 65 Q1650 83 1800 65 V120 H0Z" fill="url(#f)" opacity="0.45"/>
+  <path class="w w3" d="M0 85 Q150 75 300 85 Q450 95 600 85 Q750 75 900 85 Q1050 95 1200 85 Q1350 75 1500 85 Q1650 95 1800 85 V120 H0Z" fill="url(#f)" opacity="0.9"/>
+</svg>
